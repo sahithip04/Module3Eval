@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Common Inputs */
+input, select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Navbar */
+nav, div {
+  margin: 10px;
+}
+
+/* Restaurant Card */
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
