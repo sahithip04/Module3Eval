@@ -1,6 +1,6 @@
 const RestaurantCard = ({data, isAdmin, onDelete, onUpdate}) => {
     return (
-        <div>
+        <div className="card">
             <img src="{data.image}" width= "150" />
             <h3>{data.restaurantName}</h3>
             <p>{data.address}</p>
